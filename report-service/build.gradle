@@ -1,7 +1,8 @@
 plugins {
+    id "io.freefair.lombok" version "6.6.3"
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
     id 'java'
     id 'org.springframework.boot' version '2.6.3'
-    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 }
 
 group 'com.svshayt'
@@ -14,10 +15,12 @@ repositories {
 }
 
 dependencies {
-    // spring
+    implementation 'com.infobip:infobip-spring-data-jdbc-querydsl-boot-starter:6.2.1'
+    implementation 'org.liquibase:liquibase-core:4.8.0'
+    implementation 'org.postgresql:postgresql:42.5.4'
     implementation 'org.springframework.boot:spring-boot-starter-web'
+//    implementation 'org.yaml:snakeyaml:1.31'
 
-    // junit
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 }

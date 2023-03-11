@@ -1,0 +1,14 @@
+version: '0.0.1'
+
+services:
+  postgres:
+    container_name: postgres_svshayt
+    image: "postgres:15.2"
+    environment:
+      - POSTGRES_USER=svshayt
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=projects
+    ports:
+      - "5432:5432"
+    volumes:
+      - /tmp/lib/postgres_svshayt/data/projects:/var/lib/postgres_svshayt/data

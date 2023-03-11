@@ -1,3 +1,17 @@
 spring:
+  datasource:
+    url: ${datasource_url:jdbc:postgresql://localhost:5432/projects}?currentSchema=report
+    username: ${datasource_username:svshayt}
+    password: ${datasource_password:password}
+    hikari:
+      connection-timeout: ${datasource_connection_timeout:30000}
+  liquibase:
+    change-log: classpath:db/changelog/changelog-root.xml
+    liquibase-schema: report
+    enabled: ${liquibase_enabled:true}
+    parameters:
+      general_tablespace: pg_default
+      index_tablespace: pg_default
+      schema: report
   profiles:
     active: dev

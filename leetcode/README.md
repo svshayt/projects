@@ -1,14 +1,16 @@
 # leetcode-java
 
-🟢 13. Roman to Integer <br/>
-🟢 205. Isomorphic Strings <br/>
-🟢 234. Palindrome Linked List <br/>
-🟢 383. Ransom Note <br/>
-🟢 392. Is Subsequence <br/>
-🟢 412. Fizz Buzz <br/>
-🟢 724. Find Pivot Index <br/>
-🟢 876. Middle of the Linked List <br/>
-🟢 1337. The K Weakest Rows in a Matrix <br/>
-🟢 1342. Number of Steps to Reduce a Number to Zero <br/>
-🟢 1480. Running Sum of 1d Array <br/>
-🟢 1672. Richest Customer Wealth <br/>
+<pre>
+🟢   13. Roman to Integer
+🟢  205. Isomorphic Strings
+🟢  234. Palindrome Linked List
+🟢  383. Ransom Note
+🟢  392. Is Subsequence
+🟢  412. Fizz Buzz
+🟢  724. Find Pivot Index
+🟢  876. Middle of the Linked List
+🟢 1337. The K Weakest Rows in a Matrix
+🟢 1342. Number of Steps to Reduce a Number to Zero
+🟢 1480. Running Sum of 1d Array
+🟢 1672. Richest Customer Wealth
+</pre>

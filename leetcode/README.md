@@ -13,4 +13,5 @@
 🟢 1342. Number of Steps to Reduce a Number to Zero
 🟢 1480. Running Sum of 1d Array
 🟢 1672. Richest Customer Wealth
+🟢 1757. Recyclable and Low Fat Products
 </pre>

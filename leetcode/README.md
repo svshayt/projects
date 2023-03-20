@@ -2,6 +2,7 @@
 
 <pre>
 🟢   13. Roman to Integer
+🟢  175. Combine Two Tables
 🟢  205. Isomorphic Strings
 🟢  234. Palindrome Linked List
 🟢  383. Ransom Note

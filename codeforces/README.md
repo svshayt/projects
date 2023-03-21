@@ -1,5 +1,10 @@
 # codeforces
 
+1. Codeforces Beta Round 1
+<pre>
+🟢 A. Theatre Square
+</pre>
+
 4. Codeforces Beta Round 4 (Div. 2 Only)
 <pre>
 🟢 A. Watermelon

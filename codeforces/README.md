@@ -10,6 +10,11 @@
 🟢 A. Watermelon
 </pre>
 
+71. Codeforces Beta Round 65 (Div. 2)
+<pre>
+🟢 A. Way Too Long Words
+</pre>
+
 1675. Codeforces Round 787 (Div. 3)
 <pre>
 🟢 A. Food for Animals

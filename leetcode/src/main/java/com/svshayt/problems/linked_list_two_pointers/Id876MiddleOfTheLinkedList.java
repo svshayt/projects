@@ -1,4 +1,4 @@
-package com.svshayt.problems;
+package com.svshayt.problems.linked_list_two_pointers;
 
 /**
  * 876. Middle of the Linked List
@@ -96,6 +96,21 @@ public class Id876MiddleOfTheLinkedList {
         }
         return result;
     }
+}
 
+class ListNode {
+    int val;
+    ListNode next;
 
+    ListNode() {
+    }
+
+    ListNode(int val) {
+        this.val = val;
+    }
+
+    ListNode(int val, ListNode next) {
+        this.val = val;
+        this.next = next;
+    }
 }

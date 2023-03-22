@@ -1,4 +1,4 @@
-package com.svshayt.problems;
+package com.svshayt.problems.math_string_simulation;
 
 import java.util.ArrayList;
 import java.util.List;

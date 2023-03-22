@@ -1,4 +1,4 @@
-package com.svshayt.problems;
+package com.svshayt.problems.math_bit_manipulation;
 
 /**
  * 1342. Number of Steps to Reduce a Number to Zero

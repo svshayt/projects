@@ -1,4 +1,4 @@
-package com.svshayt.problems;
+package com.svshayt.problems.linked_list_two_pointers_stack_recursion;
 
 import java.util.Stack;
 
@@ -207,5 +207,22 @@ public class Id234PalindromeLinkedList {
         System.out.println(new Id234PalindromeLinkedList().isPalindrome(listNode));
         ListNode listNode2 = new ListNode(1, new ListNode(2, new ListNode(1)));
         System.out.println(new Id234PalindromeLinkedList().isPalindrome(listNode2));
+    }
+}
+
+class ListNode {
+    int val;
+    ListNode next;
+
+    ListNode() {
+    }
+
+    ListNode(int val) {
+        this.val = val;
+    }
+
+    ListNode(int val, ListNode next) {
+        this.val = val;
+        this.next = next;
     }
 }

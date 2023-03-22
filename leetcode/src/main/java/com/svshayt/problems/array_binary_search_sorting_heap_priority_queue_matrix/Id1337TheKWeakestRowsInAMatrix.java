@@ -1,4 +1,4 @@
-package com.svshayt.problems;
+package com.svshayt.problems.array_binary_search_sorting_heap_priority_queue_matrix;
 
 import java.util.ArrayList;
 import java.util.Arrays;

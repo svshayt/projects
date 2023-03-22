@@ -1,4 +1,4 @@
-package com.svshayt.problems;
+package com.svshayt.problems.hash_table_math_string;
 
 /**
  * 13. Roman to Integer

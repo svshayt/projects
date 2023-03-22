@@ -1,4 +1,4 @@
-package com.svshayt.problems;
+package com.svshayt.problems.two_pointers_string_dynamic_programming;
 
 /**
  * 392. Is Subsequence

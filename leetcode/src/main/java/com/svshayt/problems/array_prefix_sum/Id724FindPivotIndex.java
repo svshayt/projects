@@ -1,4 +1,4 @@
-package com.svshayt.problems;
+package com.svshayt.problems.array_prefix_sum;
 
 /**
  * 724. Find Pivot Index

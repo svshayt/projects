@@ -1,4 +1,4 @@
-package com.svshayt.problems;
+package com.svshayt.problems.string;
 
 public class Id1108DefangingAnIPAddress {
     public String defangIPaddr(String address) {

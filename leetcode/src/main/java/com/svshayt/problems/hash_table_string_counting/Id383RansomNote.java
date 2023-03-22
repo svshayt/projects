@@ -1,4 +1,4 @@
-package com.svshayt.problems;
+package com.svshayt.problems.hash_table_string_counting;
 
 /**
  * 383. Ransom Note

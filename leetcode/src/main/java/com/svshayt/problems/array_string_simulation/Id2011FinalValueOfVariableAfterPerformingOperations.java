@@ -1,4 +1,4 @@
-package com.svshayt.problems;
+package com.svshayt.problems.array_string_simulation;
 
 public class Id2011FinalValueOfVariableAfterPerformingOperations {
     public int finalValueAfterOperations(String[] operations) {

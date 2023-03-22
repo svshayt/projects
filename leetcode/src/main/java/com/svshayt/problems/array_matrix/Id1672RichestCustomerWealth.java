@@ -1,6 +1,4 @@
-package com.svshayt.problems;
-
-import java.util.Arrays;
+package com.svshayt.problems.array_matrix;
 
 /**
  * 1672. Richest Customer Wealth

@@ -1,4 +1,4 @@
-package com.svshayt.problemset.id_4_codeforces_beta_round_4_div_2_only;
+package com.svshayt.problemset.greedy_math;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -11,27 +11,32 @@ import static java.lang.Math.max;
 /**
  * @author svshayt
  */
-public class Id4AWatermelon {
+public class Id1675AFoodForAnimals {
 
     static FastReader in = new FastReader();
     static PrintWriter out = new PrintWriter(System.out);
 
     public static void main(String[] args) {
 
-        out.println(solve());
+        int t = inputInt();
+        while (t-- > 0) {
+            solve();
+        }
 
         out.flush();
         out.close();
     }
 
-    public static String solve() {
-        int w = inputInt();
+    public static void solve() {
+        int[] arr = inputIntArray(5);
 
-        if (w < 4) return "NO";
-        if (w % 2 == 0) {
-            return "YES";
+        int ax = max(0, arr[3] - arr[0]);
+        int by = max(0, arr[4] - arr[1]);
+
+        if (arr[2] >= ax + by) {
+            out.println("YES");
         } else {
-            return "NO";
+            out.println("NO");
         }
     }
 

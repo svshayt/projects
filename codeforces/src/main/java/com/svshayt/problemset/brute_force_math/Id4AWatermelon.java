@@ -1,4 +1,4 @@
-package com.svshayt.problemset.id_1675_codeforces_round_787_div_3;
+package com.svshayt.problemset.brute_force_math;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,37 +6,30 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.util.StringTokenizer;
 
-import static java.lang.Math.max;
-
 /**
  * @author svshayt
  */
-public class Id1675AFoodForAnimals {
+public class Id4AWatermelon {
 
     static FastReader in = new FastReader();
     static PrintWriter out = new PrintWriter(System.out);
 
     public static void main(String[] args) {
 
-        int t = inputInt();
-        while (t-- > 0) {
-            solve();
-        }
+        out.println(solve());
 
         out.flush();
         out.close();
     }
 
-    public static void solve() {
-        int[] arr = inputIntArray(5);
+    public static String solve() {
+        int w = inputInt();
 
-        int ax = max(0, arr[3] - arr[0]);
-        int by = max(0, arr[4] - arr[1]);
-
-        if (arr[2] >= ax + by) {
-            out.println("YES");
+        if (w < 4) return "NO";
+        if (w % 2 == 0) {
+            return "YES";
         } else {
-            out.println("NO");
+            return "NO";
         }
     }
 

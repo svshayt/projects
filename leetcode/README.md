@@ -9,6 +9,7 @@
 🟢  392. Is Subsequence
 🟢  412. Fizz Buzz
 🟢  724. Find Pivot Index
+🟢  771. Jewels and Stones
 🟢  876. Middle of the Linked List
 🟢 1108. Defanging an IP Address
 🟢 1337. The K Weakest Rows in a Matrix

@@ -17,6 +17,7 @@
 🟢 1470. Shuffle the Array
 🟢 1480. Running Sum of 1d Array
 🟢 1672. Richest Customer Wealth
+🟢 1741. Find Total Time Spent by Each Employee
 🟢 1757. Recyclable and Low Fat Products
 🟢 1920. Build Array from Permutation
 🟢 1929. Concatenation of Array

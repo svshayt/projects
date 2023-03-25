@@ -1,4 +1,4 @@
-package com.svshayt.problemset.strings;
+package com.svshayt.problemset.math.id617a;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -9,20 +9,16 @@ import java.util.StringTokenizer;
 /**
  * @author svshayt
  */
-public class Id71AWayTooLongWords {
+public class Id617AElephant {
     public static void main(String[] args) {
         FastReader in = new FastReader();
         PrintWriter out = new PrintWriter(System.out);
 
-        int t = in.nextInt();
-        while (t-- > 0) {
-            String st = in.nextLine();
-            if (st.length() <= 10) {
-                out.println(st);
-            } else {
-                out.println(st.charAt(0) + "" + (st.length() - 2) + "" + st.charAt(st.length() - 1));
-            }
-        }
+        int x = in.nextInt();
+        int steps = x / 5;
+        if (x % 5 != 0) steps++;
+        out.println(steps);
+
         out.close();
     }
 }

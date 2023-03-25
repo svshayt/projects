@@ -1,4 +1,4 @@
-package com.svshayt.problemset.math;
+package com.svshayt.problemset.greedy_math.id1675a;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,30 +6,38 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.util.StringTokenizer;
 
+import static java.lang.Math.max;
+
 /**
  * @author svshayt
  */
-public class Id1ATheatreSquare {
+public class Id1675AFoodForAnimals {
 
     static FastReader in = new FastReader();
     static PrintWriter out = new PrintWriter(System.out);
 
     public static void main(String[] args) {
 
-        out.println(solve());
+        int t = inputInt();
+        while (t-- > 0) {
+            solve();
+        }
 
         out.flush();
         out.close();
     }
 
-    public static long solve() {
-        int n = inputInt();
-        int m = inputInt();
-        int a = inputInt();
+    public static void solve() {
+        int[] arr = inputIntArray(5);
 
-        int na = (n % a == 0) ? (n / a) : (n / a + 1);
-        int ma = (m % a == 0) ? (m / a) : (m / a + 1);
-        return (long) na * ma;
+        int ax = max(0, arr[3] - arr[0]);
+        int by = max(0, arr[4] - arr[1]);
+
+        if (arr[2] >= ax + by) {
+            out.println("YES");
+        } else {
+            out.println("NO");
+        }
     }
 
     static int inputInt() {

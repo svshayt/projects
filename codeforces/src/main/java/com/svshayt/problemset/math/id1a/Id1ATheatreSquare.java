@@ -1,4 +1,4 @@
-package com.svshayt.problemset.math;
+package com.svshayt.problemset.math.id1a;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -9,17 +9,39 @@ import java.util.StringTokenizer;
 /**
  * @author svshayt
  */
-public class Id617AElephant {
+public class Id1ATheatreSquare {
+
+    static FastReader in = new FastReader();
+    static PrintWriter out = new PrintWriter(System.out);
+
     public static void main(String[] args) {
-        FastReader in = new FastReader();
-        PrintWriter out = new PrintWriter(System.out);
 
-        int x = in.nextInt();
-        int steps = x / 5;
-        if (x % 5 != 0) steps++;
-        out.println(steps);
+        out.println(solve());
 
+        out.flush();
         out.close();
+    }
+
+    public static long solve() {
+        int n = inputInt();
+        int m = inputInt();
+        int a = inputInt();
+
+        int na = (n % a == 0) ? (n / a) : (n / a + 1);
+        int ma = (m % a == 0) ? (m / a) : (m / a + 1);
+        return (long) na * ma;
+    }
+
+    static int inputInt() {
+        return in.nextInt();
+    }
+
+    static int[] inputIntArray(int n) {
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = inputInt();
+        }
+        return arr;
     }
 }
 

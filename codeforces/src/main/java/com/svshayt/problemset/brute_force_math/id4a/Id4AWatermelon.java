@@ -1,4 +1,4 @@
-package com.svshayt.problemset.brute_force_math;
+package com.svshayt.problemset.brute_force_math.id4a;
 
 import java.io.BufferedReader;
 import java.io.IOException;

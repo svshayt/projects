@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd
+      http://www.liquibase.org/xml/ns/pro
+      http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.1.xsd">
+
+    <changeSet id="v0.0.1_01_create_solution_table" author="Vasily_Shaytan">
+        <createTable tableName="solution">
+            <column name="id" remarks="Идентификатор разрешения/поручения" type="bigint">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="solution_pk"/>
+            </column>
+            <column name="series" type="varchar" remarks="Серия разрешения/поручения на выплату"/>
+            <column name="number" type="varchar" remarks="Номер разрешения/поручения на выплату"/>
+            <column name="department_doc_date" type="date" remarks="Дата формирования документа министерством/ведомством"/>
+            <column name="department_doc_number" type="varchar" remarks="Номер документа в министерстве/ведомстве"/>
+        </createTable>
+    </changeSet>
+</databaseChangeLog>

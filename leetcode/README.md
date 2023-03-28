@@ -16,6 +16,7 @@
 🟢 1342. Number of Steps to Reduce a Number to Zero
 🟢 1470. Shuffle the Array
 🟢 1480. Running Sum of 1d Array
+🟢 1603. Design Parking System
 🟢 1672. Richest Customer Wealth
 🟢 1741. Find Total Time Spent by Each Employee
 🟢 1757. Recyclable and Low Fat Products

@@ -1,7 +1,24 @@
 package com.svshayt.problems.array_simulation;
 
 public class Id1920BuildArrayFromPermutation {
+
+    // a = a + n * b;
+    // n - size
+    // a - original number a = a % n
+    // b - final number    b = a / n
     public int[] buildArray(int[] nums) {
+
+        int n = nums.length;
+        for (int i = 0; i < nums.length; i++) {
+            nums[i] = nums[i] + n * (nums[nums[i]] % n);
+        }
+        for (int i = 0; i < nums.length; i++) {
+            nums[i] = nums[i] / n;
+        }
+        return nums;
+    }
+
+    public int[] buildArray2(int[] nums) {
         int index = 0;
         changePlace(nums, index);
         return nums;
@@ -16,7 +33,7 @@ public class Id1920BuildArrayFromPermutation {
         }
     }
 
-    public int[] buildArray2(int[] nums) {
+    public int[] buildArray3(int[] nums) {
         int res[] = new int[nums.length];
         for (int i = 0; i < nums.length; i++) {
             res[i] = nums[nums[i]];

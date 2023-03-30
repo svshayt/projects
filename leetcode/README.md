@@ -25,6 +25,7 @@
 🟢 1929. Concatenation of Array
 🟢 2011. Final Value of Variable After Performing Operations
 🟢 2114. Maximum Number of Words Found in Sentences
+🟢 2235. Add Two Integers
 🟢 2469. Convert the Temperature
 🟢 2574. Left and Right Sum Differences
 </pre>

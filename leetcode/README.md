@@ -15,6 +15,7 @@
 🟢 1337. The K Weakest Rows in a Matrix
 🟢 1342. Number of Steps to Reduce a Number to Zero
 🟢 1470. Shuffle the Array
+🟢 1476. Subrectangle Queries
 🟢 1480. Running Sum of 1d Array
 🟢 1603. Design Parking System
 🟢 1672. Richest Customer Wealth

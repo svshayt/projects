@@ -1,4 +1,4 @@
-package util;
+package book.util;
 
 import java.io.PrintStream;
 

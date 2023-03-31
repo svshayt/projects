@@ -1,4 +1,4 @@
-package operators;
+package book.operators;
 
 public class Casting {
     public static void main(String[] args) {

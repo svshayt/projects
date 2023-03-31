@@ -1,4 +1,4 @@
-package operators;
+package book.operators;
 
 public class AllOps {
     // To accept the results of a boolean test:

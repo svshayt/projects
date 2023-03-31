@@ -1,4 +1,4 @@
-package operators;
+package book.operators;
 
 public class PassObject {
     static void f(Letter y) {

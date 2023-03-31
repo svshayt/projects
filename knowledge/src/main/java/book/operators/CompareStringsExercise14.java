@@ -1,4 +1,4 @@
-package operators;
+package book.operators;
 
 public class CompareStringsExercise14 {
     public static void main(String[] args) {

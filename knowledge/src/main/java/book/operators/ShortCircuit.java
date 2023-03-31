@@ -1,4 +1,4 @@
-package operators;
+package book.operators;
 
 public class ShortCircuit {
     static boolean test1(int val) {

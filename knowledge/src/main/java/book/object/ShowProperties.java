@@ -1,4 +1,4 @@
-package object;
+package book.object;
 
 public class ShowProperties {
 

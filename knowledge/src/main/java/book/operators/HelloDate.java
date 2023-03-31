@@ -1,8 +1,8 @@
-package operators;
+package book.operators;
 
 import java.util.Date;
 
-import static util.Print.print;
+import static book.util.Print.print;
 
 public class HelloDate {
     public static void main(String[] args) {

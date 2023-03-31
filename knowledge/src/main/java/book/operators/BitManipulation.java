@@ -1,8 +1,8 @@
-package operators;
+package book.operators;
 
 import java.util.Random;
 
-import static util.Print.print;
+import static book.util.Print.print;
 
 public class BitManipulation {
     public static void main(String[] args) {

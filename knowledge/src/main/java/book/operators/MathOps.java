@@ -1,4 +1,4 @@
-package operators;
+package book.operators;
 
 import java.util.Random;
 

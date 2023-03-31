@@ -1,6 +1,6 @@
-package operators;
+package book.operators;
 
-import static util.Print.print;
+import static book.util.Print.print;
 
 public class UnsignedRightShiftExercise12 {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package operators;
 
-public class Exercise10 {
+public class BitwiseOperatorsExercise10 {
 
     public static void main(String[] args) {
         int a = 0x55;

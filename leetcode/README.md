@@ -14,6 +14,7 @@
 🟢 1108. Defanging an IP Address
 🟢 1337. The K Weakest Rows in a Matrix
 🟢 1342. Number of Steps to Reduce a Number to Zero
+🟢 1378. Replace Employee ID With The Unique Identifier
 🟢 1470. Shuffle the Array
 🟢 1476. Subrectangle Queries
 🟢 1480. Running Sum of 1d Array

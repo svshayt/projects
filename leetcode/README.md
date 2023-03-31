@@ -20,6 +20,7 @@
 🟢 1603. Design Parking System
 🟢 1672. Richest Customer Wealth
 🟢 1689. Partitioning Into Minimum Number Of Deci-Binary Numbers
+🟢 1693. Daily Leads and Partners
 🟢 1741. Find Total Time Spent by Each Employee
 🟢 1757. Recyclable and Low Fat Products
 🟢 1920. Build Array from Permutation

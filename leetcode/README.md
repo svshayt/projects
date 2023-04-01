@@ -20,6 +20,7 @@
 🟢 1480. Running Sum of 1d Array
 🟢 1603. Design Parking System
 🟢 1672. Richest Customer Wealth
+🟢 1683. Invalid Tweets
 🟢 1689. Partitioning Into Minimum Number Of Deci-Binary Numbers
 🟢 1693. Daily Leads and Partners
 🟢 1741. Find Total Time Spent by Each Employee

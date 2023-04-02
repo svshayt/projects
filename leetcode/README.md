@@ -18,6 +18,7 @@
 🟢 1470. Shuffle the Array
 🟢 1476. Subrectangle Queries
 🟢 1480. Running Sum of 1d Array
+🟢 1512. Number of Good Pairs
 🟢 1603. Design Parking System
 🟢 1672. Richest Customer Wealth
 🟢 1683. Invalid Tweets

@@ -49,6 +49,7 @@
 🟢 2235. Add Two Integers
 
 🟢 2356. Number of Unique Subjects Taught by Each Teacher
+🟢 2396. Strictly Palindromic Number
 
 🟢 2469. Convert the Temperature
 

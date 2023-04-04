@@ -51,6 +51,7 @@
 🟢 2356. Number of Unique Subjects Taught by Each Teacher
 🟢 2396. Strictly Palindromic Number
 
+🟢 2413. Smallest Even Multiple
 🟢 2469. Convert the Temperature
 
 🟢 2574. Left and Right Sum Differences

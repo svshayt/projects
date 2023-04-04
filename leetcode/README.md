@@ -23,6 +23,7 @@
 🟢 1337. The K Weakest Rows in a Matrix
 🟢 1342. Number of Steps to Reduce a Number to Zero
 🟢 1378. Replace Employee ID With The Unique Identifier
+🟢 1393. Capital Gain/Loss
 
 🟢 1470. Shuffle the Array
 🟢 1476. Subrectangle Queries

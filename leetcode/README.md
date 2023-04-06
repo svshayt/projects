@@ -39,6 +39,7 @@
 
 🟢 1741. Find Total Time Spent by Each Employee
 🟢 1757. Recyclable and Low Fat Products
+🟢 1795. Rearrange Products Table
 
 🟢 1920. Build Array from Permutation
 🟢 1929. Concatenation of Array

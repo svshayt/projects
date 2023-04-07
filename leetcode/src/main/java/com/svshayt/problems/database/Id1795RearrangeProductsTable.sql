@@ -9,3 +9,25 @@ union
 select product_id, 'store3' as store, store3 as price
 from Products
 where store3 is not null
+
+
+-- MS SQL Server
+-- select product_id, store, price
+-- from Products
+--          unpivot(
+--                  store for price in (
+--         [store1], [store2], [store3]
+--     )
+--         ) as products_unpivot
+
+
+
+
+-- select product_id, store, price
+-- from Products
+--          unpivot(
+--                  price
+--                      for store in (
+--         store1, store2, store3
+--     )
+--         ) as products_unpivot

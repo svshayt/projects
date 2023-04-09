@@ -34,6 +34,7 @@
 
 🟢 1603. Design Parking System
 🟢 1672. Richest Customer Wealth
+🟢 1678. Goal Parser Interpretation
 🟢 1683. Invalid Tweets
 🟢 1689. Partitioning Into Minimum Number Of Deci-Binary Numbers
 🟢 1693. Daily Leads and Partners

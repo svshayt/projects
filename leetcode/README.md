@@ -1,6 +1,7 @@
 # leetcode-java
 
 <pre>
+🟢    1. Two Sum
 🟢   13. Roman to Integer
 
 🟢  175. Combine Two Tables

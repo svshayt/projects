@@ -2,6 +2,7 @@
 
 <pre>
 🟢    1. Two Sum
+🟢    2. Add Two Numbers
 🟢   13. Roman to Integer
 
 🟢  175. Combine Two Tables

@@ -5,6 +5,7 @@
 🟢    2. Add Two Numbers
 🟢   13. Roman to Integer
 
+🟢  172. Factorial Trailing Zeroes
 🟢  175. Combine Two Tables
 
 🟢  205. Isomorphic Strings

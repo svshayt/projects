@@ -1,4 +1,4 @@
-package usage;
+package using_the_case;
 
 public class ConvertingANumberFromOneBaseToAnother {
     public static void main(String[] args) {

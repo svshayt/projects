@@ -1,4 +1,4 @@
-package usage;
+package using_the_case;
 
 import com.google.common.math.BigIntegerMath;
 import org.apache.commons.math3.util.CombinatoricsUtils;

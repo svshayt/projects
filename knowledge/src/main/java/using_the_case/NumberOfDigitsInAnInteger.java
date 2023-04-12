@@ -1,4 +1,4 @@
-package usage;
+package using_the_case;
 
 public class NumberOfDigitsInAnInteger {
     public static void main(String[] args) {

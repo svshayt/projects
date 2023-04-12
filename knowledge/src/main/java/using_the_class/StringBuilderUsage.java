@@ -1,4 +1,4 @@
-package class_usage;
+package using_the_class;
 
 public class StringBuilderUsage {
     public static void main(String[] args) {

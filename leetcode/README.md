@@ -61,6 +61,7 @@
 🟢 2396. Strictly Palindromic Number
 
 🟢 2413. Smallest Even Multiple
+🟢 2427. Number of Common Factors
 🟢 2469. Convert the Temperature
 
 🟢 2574. Left and Right Sum Differences

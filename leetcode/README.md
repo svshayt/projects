@@ -56,6 +56,7 @@
 
 🟢 2235. Add Two Integers
 
+🟢 2325. Decode the Message
 🟢 2356. Number of Unique Subjects Taught by Each Teacher
 🟢 2390. Removing Stars From a String
 🟢 2396. Strictly Palindromic Number

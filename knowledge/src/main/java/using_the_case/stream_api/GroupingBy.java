@@ -1,4 +1,4 @@
-package stream_api;
+package using_the_case.stream_api;
 
 import model.Worker;
 

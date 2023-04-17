@@ -35,6 +35,7 @@
 🟢 1480. Running Sum of 1d Array
 
 🟢 1512. Number of Good Pairs
+🟢 1528. Shuffle String
 
 🟢 1603. Design Parking System
 🟢 1672. Richest Customer Wealth

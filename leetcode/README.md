@@ -6,6 +6,7 @@
 🟢    9. Palindrome Number
 🟢   13. Roman to Integer
 
+🟢  171. Excel Sheet Column Number
 🟢  172. Factorial Trailing Zeroes
 🟢  175. Combine Two Tables
 

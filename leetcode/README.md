@@ -18,6 +18,8 @@
 
 🟢  412. Fizz Buzz
 
+🟢  535. Encode and Decode TinyURL
+
 🟢  724. Find Pivot Index
 🟢  771. Jewels and Stones
 

@@ -5,6 +5,7 @@
 🟢    2. Add Two Numbers
 🟢    9. Palindrome Number
 🟢   13. Roman to Integer
+🟢   58. Length of Last Word
 
 🟢  171. Excel Sheet Column Number
 🟢  172. Factorial Trailing Zeroes

@@ -57,6 +57,7 @@
 
 🟢 2011. Final Value of Variable After Performing Operations
 
+🟢 2103. Rings and Rods
 🟢 2114. Maximum Number of Words Found in Sentences
 🟢 2160. Minimum Sum of Four Digit Number After Splitting Digits
 

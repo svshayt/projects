@@ -1,22 +1,54 @@
 plugins {
     id "io.freefair.lombok" version "6.6.3"
+    id "io.spring.dependency-management" version "1.0.11.RELEASE"
     id 'java'
+    id "org.springframework.boot" version "2.6.3" apply false
 }
 
 group 'com.svshayt'
 version '0.0.1-SNAPSHOT'
-sourceCompatibility = JavaVersion.VERSION_17
-targetCompatibility = JavaVersion.VERSION_17
+sourceCompatibility = JavaVersion.VERSION_11
+targetCompatibility = JavaVersion.VERSION_11
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
 
 repositories {
     mavenCentral()
+    mavenLocal()
 }
 
 dependencies {
-    implementation 'org.apache.commons:commons-math3:3.6.1'
-    implementation 'com.google.guava:guava:31.1-jre'
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    implementation "org.apache.commons:commons-math3:3.6.1"
+    implementation "com.google.guava:guava:31.1-jre"
+
+    // javax
+    implementation 'javax.persistence:javax.persistence-api:2.2'
+    annotationProcessor 'javax.persistence:javax.persistence-api:2.2'
+
+    implementation "com.querydsl:querydsl-jpa:5.0.0"
+    annotationProcessor 'com.querydsl:querydsl-apt:5.0.0:jpa'
+
+    // QueryDSL for JPA
+//    compileOnly 'com.querydsl:querydsl-jpa-codegen:5.0.0:jakarta'
+//    implementation 'com.querydsl:querydsl-jpa:5.0.0:jakarta'
+
+//    annotationProcessor "com.querydsl:querydsl-apt:5.0.0:jpa",
+//            "com.querydsl:querydsl-jpa:5.0.0",
+//            "javax.persistence:javax.persistence-api:2.2"
+
+
+    implementation "org.springframework.boot:spring-boot-starter-web:${spring_boot_version}"
+    implementation "org.springframework.boot:spring-boot-starter-data-jpa:${spring_boot_version}"
+//    implementation "com.infobip:infobip-spring-data-jpa-querydsl-boot-starter:6.2.1"
+//    annotationProcessor "com.infobip:infobip-spring-data-jpa-querydsl-boot-starter:6.2.1"
+//    implementation "com.infobip:infobip-spring-data-jdbc-querydsl-boot-starter:${query_dsl_starter_version}"
+
+    testImplementation "org.junit.jupiter:junit-jupiter-api:5.8.1"
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:5.8.1"
 }
 
 test {

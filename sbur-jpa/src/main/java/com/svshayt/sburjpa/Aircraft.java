@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.time.Instant;
 
@@ -16,7 +17,7 @@ import java.time.Instant;
 @AllArgsConstructor
 public class Aircraft {
     @Id
-    @GeneratedValue
+    @GeneratedValue//(strategy = GenerationType.IDENTITY)
     private Long id;
     private String callsign, squawk, reg, flightno, route, type, category;
     private int altitude, heading, speed;

@@ -17,7 +17,7 @@ public class PlaneFinderPoller {
 
     @Scheduled(fixedRate = 1000)
     private void pollPlanes() {
-        aircraftRepository.deleteAll();
+        //aircraftRepository.deleteAll();
 
         webClient.get()
                 .retrieve()

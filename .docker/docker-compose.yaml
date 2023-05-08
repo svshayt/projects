@@ -19,6 +19,32 @@ services:
     volumes:
       - mysql-db:/var/lib/mysql
 
+  mongo:
+    image: mongo:6.0.5
+#    container_name: mongo
+#    hostname: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: rootpass
+    volumes:
+      - mongo-db:/var/lib/mongo
+    ports:
+      - "27017:27017"
+
+  neo4j:
+    image: neo4j:4.4.20
+    #    container_name: mongo
+    #    hostname: mongo
+    restart: always
+    environment:
+      - NEO4J_AUTH=neo4j/secret
+    volumes:
+      - neo4j-db:/var/lib/neo4j
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+
   adminer:
     image: adminer:4.8.1
     restart: always
@@ -27,3 +53,5 @@ services:
 
 volumes:
   mysql-db:
+  mongo-db:
+  neo4j-db:

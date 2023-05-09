@@ -51,7 +51,27 @@ services:
     ports:
       - "8060:8080"
 
+  rabbitmq:
+    image: rabbitmq:3.11.15
+    container_name: 'rabbitmq'
+    ports:
+      - 5672:5672
+      - 15672:15672
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq/
+      - rabbitmq_log:/var/log/rabbitmq/
+#      - ~/.docker-conf/rabbitmq/data/:/var/lib/rabbitmq/
+#      - ~/.docker-conf/rabbitmq/log/:/var/log/rabbitmq
+    networks:
+      - rabbitmq_go_net
+
+networks:
+  rabbitmq_go_net:
+    driver: bridge
+
 volumes:
   mysql-db:
   mongo-db:
   neo4j-db:
+  rabbitmq_data:
+  rabbitmq_log:
